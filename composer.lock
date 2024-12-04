@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de62d79e6476429b66b4d2aefdf2c3d7",
+    "content-hash": "735dfcfade0297299b4c8c41f959591a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -7788,16 +7788,16 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v6.2.7",
+            "version": "v6.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "87bd43240e6cc855f70ea1c7a448ab3bd442633c"
+                "reference": "e270297dbee59168274c2b535ab1bccd593e6ffe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/87bd43240e6cc855f70ea1c7a448ab3bd442633c",
-                "reference": "87bd43240e6cc855f70ea1c7a448ab3bd442633c",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/e270297dbee59168274c2b535ab1bccd593e6ffe",
+                "reference": "e270297dbee59168274c2b535ab1bccd593e6ffe",
                 "shasum": ""
             },
             "require": {
@@ -7809,9 +7809,6 @@
                 "symfony/http-client": "^5.4|^6.0",
                 "symfony/mime": "^5.4|^6.0",
                 "symfony/process": "^5.4|^6.0"
-            },
-            "suggest": {
-                "symfony/process": ""
             },
             "type": "library",
             "autoload": {
@@ -7839,7 +7836,7 @@
             "description": "Simulates the behavior of a web browser, allowing you to make requests, click on links and submit forms programmatically",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/browser-kit/tree/v6.2.7"
+                "source": "https://github.com/symfony/browser-kit/tree/v6.3.8"
             },
             "funding": [
                 {
@@ -7855,7 +7852,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-14T08:44:56+00:00"
+            "time": "2023-10-31T08:07:48+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -7924,16 +7921,16 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v6.2.12",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "dde84bcbe9d39958b34ee6065d2fb82170552039"
+                "reference": "3fdd2a3d5fdc363b2e8dbf817f9726a4d013cbd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/dde84bcbe9d39958b34ee6065d2fb82170552039",
-                "reference": "dde84bcbe9d39958b34ee6065d2fb82170552039",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/3fdd2a3d5fdc363b2e8dbf817f9726a4d013cbd1",
+                "reference": "3fdd2a3d5fdc363b2e8dbf817f9726a4d013cbd1",
                 "shasum": ""
             },
             "require": {
@@ -7944,9 +7941,6 @@
             },
             "require-dev": {
                 "symfony/css-selector": "^5.4|^6.0"
-            },
-            "suggest": {
-                "symfony/css-selector": ""
             },
             "type": "library",
             "autoload": {
@@ -7974,7 +7968,7 @@
             "description": "Eases DOM navigation for HTML and XML documents",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dom-crawler/tree/v6.2.12"
+                "source": "https://github.com/symfony/dom-crawler/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -7990,7 +7984,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-05T15:29:05+00:00"
+            "time": "2023-08-01T07:43:40+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
@@ -8553,5 +8547,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
